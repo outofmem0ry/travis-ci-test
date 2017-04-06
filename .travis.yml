@@ -1,4 +1,4 @@
 language: cpp
 compiler:
     - g++
-build: make
+script: make
