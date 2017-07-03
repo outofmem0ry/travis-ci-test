@@ -1,2 +1,2 @@
 # travis-ci-test
-Test github and travis ci integrations
+Test github and travis ci integration.
