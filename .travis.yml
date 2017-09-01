@@ -7,5 +7,5 @@ before_install:
   - brew list --versions
 install:
   - brew reinstall
-      protobuf@3.3
+      protobuf@3.2
 script: make
