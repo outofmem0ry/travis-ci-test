@@ -2,4 +2,10 @@ os: osx
 language: cpp
 compiler:
     - g++
+before_install:
+  - brew --version
+  - brew list --versions
+install:
+  - brew reinstall
+      protobuf@3.3
 script: make
