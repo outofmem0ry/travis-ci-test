@@ -8,4 +8,5 @@ before_install:
 install:
   - brew reinstall
       protobuf
+  - brew install outofmem0ry/tap/apache-hawq
 script: make
