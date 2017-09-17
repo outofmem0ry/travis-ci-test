@@ -39,6 +39,6 @@ install:
 notifications:
   email:
     recipients:
-      - ssharma@pivotal.io
+      - topologicalqubit@gmail.com
     on_success: never # default: change
     on_failure: always # default: always
