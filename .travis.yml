@@ -36,3 +36,9 @@ install:
   - sudo pip install pycrypto
   - sudo cpanm install JSON
   - brew install outofmem0ry/tap/apache-hawq
+notifications:
+  email:
+    recipients:
+      - ssharma@pivotal.io
+    on_success: never # default: change
+    on_failure: always # default: always
